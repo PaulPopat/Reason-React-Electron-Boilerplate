@@ -1,5 +1,5 @@
 {
-  "name": "character-manager",
+  "name": "reason-react-electron-boilerplate",
   "bsc-flags": [
     "-bs-no-version-header",
     "-bs-super-errors"
