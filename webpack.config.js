@@ -26,6 +26,12 @@ module.exports = {
                 from: "app",
                 to: ""
             }
+        ]),
+        new CopyWebpackPlugin([
+            {
+                from: "resources",
+                to: "resources"
+            }
         ])
     ]
 };

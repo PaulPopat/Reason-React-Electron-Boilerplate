@@ -1,5 +1,7 @@
-@import "icons";
+@import "variables";
 
-body {
-    color: lightgrey;
-}
+@import "icons";
+@import "button";
+@import "colours";
+@import "panel";
+@import "text";

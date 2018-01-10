@@ -18,7 +18,8 @@
   "suffix": ".bs.js",
   "namespace": true,
   "sources": [
-    "view"
+    "view",
+    "view/widgets"
   ],
   "refmt": 3
 }
