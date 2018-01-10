@@ -5,3 +5,8 @@
 @import "colours";
 @import "panel";
 @import "text";
+
+body {
+    user-select: none;
+    cursor: default;
+}

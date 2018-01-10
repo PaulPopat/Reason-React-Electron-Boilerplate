@@ -7,7 +7,7 @@
         "build-js": "./node_modules/.bin/bsb -make-world",
         "build-sass": "./node_modules/.bin/node-sass styles/index.scss dist/styles.css",
         "clean": "./node_modules/.bin/bsb -clean-world",
-        "pack": "./node_modules/.bin/webpack",
+        "pack": "node pack.js",
         "dev": "npm run build-js && npm run pack && npm run build-sass && npm run serve"
     },
     "devDependencies": {
@@ -19,8 +19,7 @@
         "fs": "0.0.1-security",
         "jshint": "^2.9.5",
         "node-sass": "^4.7.2",
-        "reason-react": "^0.3.0",
-        "webpack": "3.10.0"
+        "reason-react": "^0.3.0"
     },
     "dependencies": {}
 }
