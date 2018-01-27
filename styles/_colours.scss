@@ -1,81 +1,77 @@
 .fill {
     .primary {
         color: $primary;
-
         &.lighter {
             color: $primary-lighter;
         }
-
         &.light {
             color: $primary-light;
         }
-
         &.dark {
             color: $primary-dark;
         }
-
         &.darker {
             color: $primary-darker;
         }
     }
-
     .secondary-one {
         color: $secondary-one;
-
         &.lighter {
             color: $secondary-one-lighter;
         }
-
         &.light {
             color: $secondary-one-light;
         }
-
         &.dark {
             color: $secondary-one-dark;
         }
-
         &.darker {
             color: $secondary-one-darker;
         }
     }
-
     .secondary-two {
         color: $secondary-two;
-
         &.lighter {
             color: $secondary-two-lighter;
         }
-
         &.light {
             color: $secondary-two-light;
         }
-
         &.dark {
             color: $secondary-two-dark;
         }
-
         &.darker {
             color: $secondary-two-darker;
         }
     }
-
     .complement {
         color: $complement;
-
         &.lighter {
             color: $complement-lighter;
         }
-
         &.light {
             color: $complement-light;
         }
-
         &.dark {
             color: $complement-dark;
         }
-
         &.darker {
             color: $complement-darker;
+        }
+    }
+    .grayscale {
+        color: $grayscale;
+        &.lighter {
+            color: $grayscale-lighter;
+        }
+        &.light {
+            color: $grayscale-light;
+        }
+        &.dark {
+            color: $grayscale-dark;
+        }
+        &.darker {
+            color: $grayscale-darker;
         }
     }
 }
@@ -83,81 +79,77 @@
 .background {
     .primary {
         background-color: $primary;
-
         &.lighter {
             background-color: $primary-lighter;
         }
-
         &.light {
             background-color: $primary-light;
         }
-
         &.dark {
             background-color: $primary-dark;
         }
-
         &.darker {
             background-color: $primary-darker;
         }
     }
-
     .secondary-one {
         background-color: $secondary-one;
-
         &.lighter {
             background-color: $secondary-one-lighter;
         }
-
         &.light {
             background-color: $secondary-one-light;
         }
-
         &.dark {
             background-color: $secondary-one-dark;
         }
-
         &.darker {
             background-color: $secondary-one-darker;
         }
     }
-
     .secondary-two {
         background-color: $secondary-two;
-
         &.lighter {
             background-color: $secondary-two-lighter;
         }
-
         &.light {
             background-color: $secondary-two-light;
         }
-
         &.dark {
             background-color: $secondary-two-dark;
         }
-
         &.darker {
             background-color: $secondary-two-darker;
         }
     }
-
     .complement {
         background-color: $complement;
-
         &.lighter {
             background-color: $complement-lighter;
         }
-
         &.light {
             background-color: $complement-light;
         }
-
         &.dark {
             background-color: $complement-dark;
         }
-
         &.darker {
             background-color: $complement-darker;
+        }
+    }
+    .grayscale {
+        background-color: $grayscale;
+        &.lighter {
+            background-color: $grayscale-lighter;
+        }
+        &.light {
+            background-color: $grayscale-light;
+        }
+        &.dark {
+            background-color: $grayscale-dark;
+        }
+        &.darker {
+            background-color: $grayscale-darker;
         }
     }
 }
