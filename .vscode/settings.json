@@ -11,5 +11,8 @@
         "dist": true,
         "lib": true,
         ".merlin": true
+    },
+    "jshint.options": {
+        "esversion": 6
     }
 }

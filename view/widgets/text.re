@@ -1010,7 +1010,7 @@ module P = {
     ...component,
     render: _self =>
       <div className=(Style.makeClasses("paragraph", colour, align))>
-        (children |> ReasonReact.arrayToElement)
+        (children |> ReasonReact.array)
       </div>
   };
 };
@@ -1026,7 +1026,7 @@ module Icon = {
           ++ " "
           ++ Style.makeIcons(icon)
         )>
-        (children |> ReasonReact.arrayToElement)
+        (children |> ReasonReact.array)
       </div>
   };
 };
@@ -1038,7 +1038,7 @@ module H2 = {
     ...component,
     render: _self =>
       <div className=(Style.makeClasses("header-2", colour, align))>
-        (children |> ReasonReact.arrayToElement)
+        (children |> ReasonReact.array)
       </div>
   };
 };
@@ -1050,7 +1050,7 @@ module H1 = {
     ...component,
     render: _self =>
       <div className=(Style.makeClasses("header-1", colour, align))>
-        (children |> ReasonReact.arrayToElement)
+        (children |> ReasonReact.array)
       </div>
   };
 };

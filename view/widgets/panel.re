@@ -10,7 +10,7 @@ module Button = {
     render: _self => {
       let click = _event => onClick();
       <div className=(Style.makeClasses(colour) ++ " button") onClick=click>
-        (children |> ReasonReact.arrayToElement)
+        (children |> ReasonReact.array)
       </div>;
     }
   };
@@ -30,7 +30,7 @@ module Column = {
             ()
           )
         )>
-        (children |> ReasonReact.arrayToElement)
+        (children |> ReasonReact.array)
       </div>
   };
 };
@@ -41,6 +41,6 @@ let make = (~colour: Colour.colour=Primary(Light), children) => {
   ...component,
   render: _self =>
     <div className=(Style.makeClasses(colour))>
-      (children |> ReasonReact.arrayToElement)
+      (children |> ReasonReact.array)
     </div>
 };
